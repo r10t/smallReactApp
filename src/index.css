@@ -1,0 +1,38 @@
+.form-group {
+    padding: 0;
+    margin: 0 0 20px;
+    border: none;
+    text-align: left;
+    position: relative;
+}
+
+.form-group-loading:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .75);
+    content: '';
+}
+
+svg.bi-x-circle-fill {
+    fill: #c00 !important;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px !important;
+}
+
+h1 svg {
+    margin-left: 10px;
+    fill: darkolivegreen;
+}
+
+body {
+    padding-top: 30px;
+}

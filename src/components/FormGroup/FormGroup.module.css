@@ -1,0 +1,29 @@
+.form-group__label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form-group__label svg {
+    margin-left: 5px;
+    fill: darkgreen;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group-btn {
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.form-group-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    margin-left: -16px;
+    margin-top: -16px;
+}
